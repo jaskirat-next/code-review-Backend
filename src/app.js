@@ -9,8 +9,8 @@ app.use(cors())
 app.use(express.json())
 
 app.get('/', (req, res) => {
-    res.send('hello world')
-})
+    res.send('Backend deployed successfully on Vercel!');
+  });
 
 app.use('/ai', aiRoutes)
 
